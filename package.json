@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "solid-js": "^1.8.5",
+    "vite": "^4.5.0",
+    "vite-plugin-solid": "^2.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "babel-preset-solid": "^1.8.4",
+    "rollup": "^4.3.0"
+  }
+}
