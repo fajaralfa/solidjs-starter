@@ -1,15 +1,18 @@
 {
   "type": "module",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "serve": "serve out/public"
   },
   "dependencies": {
-    "fastify": "^4.24.3",
-    "solid-js": "^1.8.5"
+    "solid-js": "^1.8.5",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-html": "^1.0.3",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "babel-preset-solid": "^1.8.4",
     "rollup": "^4.3.0"
