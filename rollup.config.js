@@ -5,7 +5,7 @@ import nodeResolve from '@rollup/plugin-node-resolve'
 export default {
     input: 'src/resources/main.jsx',
     output: {
-        dir: 'dist/public/js/',
+        dir: 'out/public/js/',
         format: 'esm',
     },
     plugins: [
